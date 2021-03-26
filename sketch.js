@@ -24,6 +24,7 @@ function setup() {
 	fairy = createSprite(130, 520);
 	fairy.addAnimation("fairyflying",fairyImg);  
 	fairy.scale =0.25;
+	fairyVoice.loop();
 
 	star = createSprite(650,30);
 	star.addImage(starImg);
